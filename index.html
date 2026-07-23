@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Cantine du Curé — Crêperie &amp; saladerie au Bouffay, Nantes</title>
+  <meta name="description" content="La Cantine du Curé, crêperie-saladerie au cœur du Bouffay à Nantes. Galettes de sarrasin généreuses, cidre à la bolée et terrasse sur les pavés de la rue Sainte-Croix.">
+  <meta property="og:title" content="La Cantine du Curé — Crêperie &amp; saladerie au Bouffay, Nantes">
+  <meta property="og:description" content="Galettes de sarrasin, cidre à la bolée et terrasse sur les pavés, à l'ombre du clocher de Sainte-Croix.">
+  <meta property="og:image" content="photos/facade.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Grand+Hotel&family=Archivo+Narrow:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    (function () {
+      var noanim = window.location.search.indexOf('noanim') !== -1;
+      var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      if (!noanim && !reduce) document.documentElement.classList.add('anim-open');
+    })();
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "La Cantine du Curé",
+    "servesCuisine": ["Crêperie", "Saladerie"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1 rue Sainte-Croix",
+      "addressLocality": "Nantes",
+      "postalCode": "44000",
+      "addressCountry": "FR"
+    },
+    "telephone": "+33240203610",
+    "email": "magalie.francois2@wanadoo.fr"
+  }
+  </script>
+</head>
+<body>
+
+  <div class="ouverture" id="ouverture" aria-hidden="true">
+    <div class="ouverture-inner">
+      <p class="ouverture-sur">Crêperie — Saladerie · Bouffay</p>
+      <p class="ouverture-cantine">La Cantine</p>
+      <p class="ouverture-cure">du Curé</p>
+      <p class="ouverture-orn">❦</p>
+    </div>
+  </div>
+
+  <a class="skip-link" href="#carte">Aller à la carte</a>
+
+  <header class="site-header" id="haut">
+    <a href="#haut" class="brand" aria-label="La Cantine du Curé — retour en haut">
+      <span class="brand-cantine">La Cantine</span>
+      <span class="brand-cure">du Curé</span>
+    </a>
+    <nav class="site-nav" aria-label="Navigation principale">
+      <a href="#carte">La carte</a>
+      <a href="#lieu">Le lieu</a>
+      <a href="#infos">Infos</a>
+      <a href="tel:+33240203610" class="nav-tel">02 40 20 36 10</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="menu-mobile">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <div class="menu-mobile" id="menu-mobile" hidden>
+    <a href="#carte">La carte</a>
+    <a href="#lieu">Le lieu</a>
+    <a href="#infos">Infos</a>
+    <a href="tel:+33240203610">02 40 20 36 10</a>
+  </div>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <figure class="hero-photo">
+      <img src="photos/facade.jpg" alt="La façade rouge de La Cantine du Curé et sa terrasse aux chaises orange, sur les pavés de la rue Sainte-Croix à Nantes" fetchpriority="high">
+    </figure>
+    <div class="hero-panel">
+      <p class="hero-sur">Crêperie — Saladerie · Bouffay, Nantes</p>
+      <h1 class="hero-titre">
+        <span class="ht-1">La</span>
+        <span class="ht-2">Cantine</span>
+        <span class="ht-3">du Curé</span>
+      </h1>
+      <p class="hero-promesse">Galettes de sarrasin généreuses et cidre à la bolée, servis sur les pavés de la rue Sainte-Croix depuis la plus vieille place de Nantes.</p>
+      <div class="hero-actions">
+        <a class="btn btn-plein" href="#carte">Découvrir la carte</a>
+        <a class="btn btn-ligne" href="tel:+33240203610">Appeler — 02 40 20 36 10</a>
+      </div>
+    </div>
+    <p class="hero-vertical" aria-hidden="true">1 rue Sainte-Croix — 44000 Nantes</p>
+  </section>
+
+  <!-- ============ INTRO ============ -->
+  <section class="intro">
+    <div class="intro-texte reveal">
+      <p class="intro-lead"><span class="lettrine">A</span>u Bouffay, entre les pans de bois et les terrasses serrées, il y a une devanture rouge qu'on repère de loin. Une billig qui fume, des bolées de cidre, des salades qui débordent de l'assiette&nbsp;: La Cantine du Curé fait ce qu'une cantine doit faire — nourrir le quartier, sans chichi.</p>
+      <p>Ici les galettes arrivent pliées à la nantaise sur des assiettes fleuries, la terrasse déborde sur les pavés dès qu'il fait beau, et le clocher de Sainte-Croix sonne juste au-dessus des parasols.</p>
+    </div>
+    <figure class="intro-bolee reveal">
+      <img src="photos/bolee-cidre.jpg" alt="Bolée de cidre Kerisac en céramique rouge" loading="lazy">
+      <figcaption>Le cidre se boit à la bolée, comme il se doit.</figcaption>
+    </figure>
+  </section>
+
+  <!-- ============ CARTE ============ -->
+  <section class="carte" id="carte">
+    <header class="carte-entete reveal">
+      <p class="sur-titre">La carte</p>
+      <h2>Du sarrasin, du beurre,<br><em>et pas de sermon.</em></h2>
+      <p class="carte-note">Aperçu de ce qui sort de la billig — intitulés exacts et prix à confirmer auprès de la maison.</p>
+    </header>
+
+    <!-- Volet galettes -->
+    <article class="volet volet-galettes">
+      <figure class="volet-photo reveal-clip">
+        <img src="photos/galette-salami.jpg" alt="Galette de sarrasin au salami et salade, servie sur une assiette en toile de Jouy avec une bolée de cidre Kerisac" loading="lazy">
+      </figure>
+      <div class="volet-liste reveal">
+        <h3><span class="script-accent">Les</span> galettes de sarrasin</h3>
+        <ul class="menu-liste">
+          <li><span class="plat">La complète — œuf, jambon, emmental</span><span class="prix">[À CONFIRMER]</span></li>
+          <li><span class="plat">Champignons poêlés</span><span class="prix">[À CONFIRMER]</span></li>
+          <li><span class="plat">Saumon fumé, fondue de poireaux</span><span class="prix">[À CONFIRMER]</span></li>
+          <li><span class="plat">Salami, salade croquante</span><span class="prix">[À CONFIRMER]</span></li>
+          <li><span class="plat">Saucisse grillée</span><span class="prix">[À CONFIRMER]</span></li>
+          <li><span class="plat">Bœuf émincé, œuf miroir</span><span class="prix">[À CONFIRMER]</span></li>
+          <li><span class="plat">Chèvre rôti, poire, noix</span><span class="prix">[À CONFIRMER]</span></li>
+        </ul>
+      </div>
+      <figure class="volet-insert reveal-clip">
+        <img src="photos/galette-saumon.jpg" alt="Gros plan sur une galette au saumon fumé et à la fondue de poireaux" loading="lazy">
+      </figure>
+    </article>
+
+    <!-- Volet assiettes -->
+    <article class="volet volet-assiettes">
+      <div class="volet-liste reveal">
+        <h3><span class="script-accent">Les</span> salades &amp; assiettes</h3>
+        <ul class="menu-liste">
+          <li><span class="plat">Tartare de bœuf au couteau</span><span class="prix">[À CONFIRMER]</span></li>
+          <li><span class="plat">Pièce du boucher, grenailles rôties</span><span class="prix">[À CONFIRMER]</span></li>
+          <li><span class="plat">Tartine raclette, salade &amp; crudités</span><span class="prix">[À CONFIRMER]</span></li>
+          <li><span class="plat">Grandes salades de saison</span><span class="prix">[À CONFIRMER]</span></li>
+        </ul>
+        <p class="volet-mention">La partie saladerie de la maison — pour les jours sans sarrasin.</p>
+      </div>
+      <figure class="volet-photo reveal-clip">
+        <img src="photos/tartare.jpg" alt="Tartare de bœuf au couteau et salade aux copeaux de carotte" loading="lazy">
+      </figure>
+      <figure class="volet-insert insert-bas reveal-clip">
+        <img src="photos/piece-boucher.jpg" alt="Pièce du boucher sauce au poivre et pommes grenailles" loading="lazy">
+      </figure>
+    </article>
+
+    <!-- Volet douceurs -->
+    <article class="volet volet-douceurs">
+      <figure class="volet-photo reveal-clip">
+        <img src="photos/crepe-glace-caramel.jpg" alt="Crêpe au caramel au beurre salé et glace vanille sur assiette en toile de Jouy" loading="lazy">
+      </figure>
+      <div class="volet-liste reveal">
+        <h3><span class="script-accent">Les</span> crêpes &amp; douceurs</h3>
+        <ul class="menu-liste">
+          <li><span class="plat">Caramel au beurre salé, glace vanille</span><span class="prix">[À CONFIRMER]</span></li>
+          <li><span class="plat">Caramel, amandes torréfiées</span><span class="prix">[À CONFIRMER]</span></li>
+          <li><span class="plat">Fruits frais, sorbet du moment</span><span class="prix">[À CONFIRMER]</span></li>
+        </ul>
+        <p class="volet-mention">Et pour accompagner&nbsp;: cidres artisanaux à la bolée, bières de la région.</p>
+      </div>
+      <figure class="volet-insert reveal-clip">
+        <img src="photos/crepe-caramel-amandes.jpg" alt="Crêpe nappée de caramel et d'amandes effilées torréfiées, servie en terrasse" loading="lazy">
+      </figure>
+    </article>
+  </section>
+
+  <!-- ============ SIGNATURE ============ -->
+  <section class="cure">
+    <div class="cure-inner">
+      <p class="cure-script" aria-hidden="true">du Curé</p>
+      <h2 class="reveal">Mais qui est<br>le Curé&nbsp;?</h2>
+      <div class="cure-texte reveal">
+        <p>La maison tient boutique au n°1 de la rue Sainte-Croix, à l'ombre du clocher de l'église du même nom. De là à dire que le curé de la paroisse y avait sa table&nbsp;— le mystère reste entier.</p>
+        <p>Ce qui est sûr&nbsp;: on y mange comme à la cantine, généreusement et sans façon. La question du curé, elle, se pose en salle, une bolée à la main.</p>
+      </div>
+      <p class="cure-adresse reveal">❦ 1, rue Sainte-Croix — paroisse du Bouffay ❦</p>
+    </div>
+  </section>
+
+  <!-- ============ LIEU / AMBIANCE ============ -->
+  <section class="lieu" id="lieu">
+    <header class="lieu-entete reveal">
+      <p class="sur-titre">Le lieu</p>
+      <h2>La terrasse sur les pavés,<br><em>la salle sous la pierre.</em></h2>
+    </header>
+
+    <figure class="lieu-bandeau reveal-clip">
+      <img src="photos/facade-bandeau.jpg" alt="Le store rouge de la crêperie et les toits du Bouffay, rue Sainte-Croix" loading="lazy">
+      <figcaption>Rue Sainte-Croix, la devanture rouge et son store en lettres anglaises.</figcaption>
+    </figure>
+
+    <div class="lieu-galerie">
+      <figure class="lg-terrasse reveal-clip">
+        <img src="photos/terrasse.jpg" alt="Les chaises pliantes orange de la terrasse sur les pavés du Bouffay" loading="lazy">
+        <figcaption>Chaises orange, serviettes rouges&nbsp;: la terrasse annonce la couleur.</figcaption>
+      </figure>
+      <figure class="lg-oeuf reveal-clip">
+        <img src="photos/galette-oeuf.jpg" alt="Galette garnie servie sur plaque, vue en salle" loading="lazy">
+      </figure>
+      <figure class="lg-sorbet reveal-clip">
+        <img src="photos/dessert-sorbet.jpg" alt="Coupes de fruits frais et sorbets dans des bols en céramique" loading="lazy">
+      </figure>
+      <figure class="lg-saucisse reveal-clip">
+        <img src="photos/galette-saucisse.jpg" alt="Galette à la saucisse grillée et salade verte" loading="lazy">
+      </figure>
+      <figure class="lg-champi reveal-clip">
+        <img src="photos/galette-champignons.jpg" alt="Galette aux champignons poêlés sur assiette en toile de Jouy, bolée de la Cidrerie des Terroirs" loading="lazy">
+        <figcaption>Assiettes fleuries, bolées de cidre — le service ne triche pas.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============ INFOS ============ -->
+  <section class="infos" id="infos">
+    <div class="infos-bloc reveal">
+      <p class="sur-titre clair">Infos pratiques</p>
+      <h2>Passer nous voir</h2>
+      <dl class="infos-liste">
+        <div>
+          <dt>Adresse</dt>
+          <dd>1 rue Sainte-Croix<br>44000 Nantes — quartier Bouffay</dd>
+        </div>
+        <div>
+          <dt>Téléphone</dt>
+          <dd><a href="tel:+33240203610">02 40 20 36 10</a></dd>
+        </div>
+        <div>
+          <dt>E-mail</dt>
+          <dd><a href="mailto:magalie.francois2@wanadoo.fr">magalie.francois2@wanadoo.fr</a></dd>
+        </div>
+        <div>
+          <dt>Horaires</dt>
+          <dd>[À CONFIRMER]</dd>
+        </div>
+        <div>
+          <dt>Réservation</dt>
+          <dd>Par téléphone — [À CONFIRMER]</dd>
+        </div>
+      </dl>
+      <a class="btn btn-plein" href="https://www.google.com/maps/dir/?api=1&destination=1+rue+Sainte-Croix+44000+Nantes" target="_blank" rel="noopener">Itinéraire jusqu'à la rue Sainte-Croix</a>
+    </div>
+    <figure class="infos-photo reveal-clip">
+      <img src="photos/enseigne-script.jpg" alt="Le lettrage anglais « Crêperie du Curé » peint sur le store rouge" loading="lazy">
+    </figure>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <p class="footer-script">La Cantine <span>du Curé</span></p>
+    <div class="footer-ligne">
+      <p>1 rue Sainte-Croix, 44000 Nantes</p>
+      <a href="tel:+33240203610">02 40 20 36 10</a>
+      <p>Crêperie — Saladerie</p>
+    </div>
+    <p class="footer-mention">© <span id="annee">2026</span> La Cantine du Curé — Photographies de la maison.</p>
+    <p class="footer-legal">
+      <a href="mentions-legales.html">Mentions légales</a>
+      <span aria-hidden="true">·</span>
+      Site créé par <a href="https://vokumagency.com" target="_blank" rel="noopener">Vokum</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
