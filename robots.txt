@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lacantineducure-site.vercel.app/sitemap.xml
